@@ -17,7 +17,6 @@ using Vuforia;
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-    public GameObject JumpingAtkins;
     #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
@@ -107,8 +106,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
                 component.enabled = true;
 
             //Start Atkins Jump Animation from "start"
-            //JumpingAtkins.GetComponent<Animator>().Play("start");
-            foreach(var component in animatorComponents)
+            foreach (var component in animatorComponents)
             {
                 component.enabled = true;
                 component.Play("start");
