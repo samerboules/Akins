@@ -8,7 +8,8 @@ public class HideAfterJump : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         GameObject JumpingAtkins = GameObject.Find("JumpingAtkins");
-        JumpingAtkins.SetActive(false);
+        JumpingAtkins.transform.localScale = new Vector3(0.00000001f, 0.00000001f, 0.00000001f);
+        animator.SetBool("JumpAnimationDone", true);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

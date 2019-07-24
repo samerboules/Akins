@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f0ab7822701a1b84b8bad45e265efad1
+guid: ac750df6852376b4e8907c345865bf69
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: stokstaartje
-    second: {fileID: 2100000, guid: 9f9e2e57540de7740bda438d03d47b38, type: 2}
+    second: {fileID: 2100000, guid: 4bf686fb7a8d63a43a05464a97551f30, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

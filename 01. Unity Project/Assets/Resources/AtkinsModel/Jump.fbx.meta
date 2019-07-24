@@ -11,7 +11,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: stokstaartje
-    second: {fileID: 2100000, guid: 7b9ae099c12a0ae4e85939f9bf289ee3, type: 2}
+    second: {fileID: 2100000, guid: 725227fd651e724489b7a53393c2fff4, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
